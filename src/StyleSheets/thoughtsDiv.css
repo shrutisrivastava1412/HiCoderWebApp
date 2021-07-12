@@ -1,0 +1,77 @@
+.thoughtsDivMain{
+    padding-top: 3rem;
+    background-color: rgba(9, 71, 240, 0.05);
+}
+.carousel-item{
+    padding: 4rem;
+    text-align: center;
+    background-color: white;
+}
+.carousel-item p{
+    line-height: 1.5;
+}
+.carousel-item img{
+    border-radius: 50%;
+    height: 7.5rem;
+    width: 7.5rem;
+}
+.carousel-indicators .carousel-indicators-color{
+    height: 0.5rem;
+    width: 3rem;
+    border-radius: 0.9rem;
+}
+
+
+/* This is the css for partners div */
+.partnersMain{
+    padding: 2.5rem;
+    background-color: rgb(11, 54, 110);
+    text-align: center;
+    color: white;
+}
+
+
+/* This is css for the NewsCard */
+.hoveredCard:hover{
+    margin-top: -1rem;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.hoveredCard img:hover{
+    cursor: default;
+}
+
+
+
+
+/* This is css for footer */
+.footerMain{
+    background-image: url("../assets/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.FooterImageLogo p{
+    line-height: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 450px){
+    .partnersMain{
+        padding: 2rem 0;
+    }
+    .NewsLogoImage img{
+        height: 85%;
+    }
+    .NewsLogoDate{
+        margin-top: -0.5rem;
+    }
+    .footerMain{
+        background-size: cover;
+    }
+    .FooterImageLogo p{
+        line-height: 1.5rem;
+        font-size: 1rem;
+        text-align: left;
+    }
+}

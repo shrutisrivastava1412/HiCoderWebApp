@@ -1,0 +1,88 @@
+/* Navbar css */
+.navbar {
+  padding: 1.5rem 2.5rem;
+  font-weight: bold;
+}
+.navbar-nav li {
+  margin: 0 1rem;
+  line-height: 2rem;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  /* margin-top: 1.9rem;  */
+}
+.dropdown-menu{
+  background-color: #106eea;
+  font-weight: bold;
+}
+.dropdown-item{
+  color: white;
+}
+
+/* sliderFromRight css*/
+#slideFromRight{
+  width: 35%;
+  background-color: whitesmoke;
+  float: right;
+  right: 0;
+  display: none;
+  font-size: 110%;
+  z-index:1;  
+  position: absolute;
+}
+
+/* Nine Dots for right slider css */
+.ninedots {
+  max-width: 45px;
+  display: flex !important;
+  flex-wrap: wrap;
+  margin: -5px;
+}
+.ninedots span {
+  height: 5px;
+  width: 5px;
+  display: block;
+  background: #101010;
+  border-radius: 50%;
+  transition: none;
+  list-style: none;
+  transition: all 0.3s ease;
+  margin: 4px 5px;
+}
+.ninedots span.dot2,
+.ninedots span.dot4,
+.ninedots span.dot6,
+.ninedots span.dot8 {
+  background: #106eea;
+}
+.ninedots:hover span {
+  background: #106eea;
+}
+.ninedots:hover span.dot2,
+.ninedots:hover span.dot4,
+.ninedots:hover span.dot6,
+.ninedots:hover span.dot8 {
+  background: #101010;
+}
+
+
+/* WaveContent CSS */
+.waveBgDiv{
+  background-image: url('../assets/bgimg1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 5rem;
+  margin-top: 4rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 450px) {
+  .waveBgDiv{
+    background-image: none;
+    background-color: rgb(11, 54, 110);
+    padding: 2rem 0;
+  }
+}

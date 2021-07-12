@@ -1,0 +1,177 @@
+/* First div content css */
+.img_text_wrapper {
+  position: relative;
+  color: black;
+}
+.img_text_wrapper img {
+  height: 100%;
+  width: 100%;
+}
+.contentFirstDiv {
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+.contentFirstDiv h1 {
+  font-weight: bolder;
+  font-size: 350%;
+}
+.c1btn {
+  height: fit-content;
+  width: 10rem;
+  padding: 1%;
+  border-radius: 5px;
+  border: 2px solid rgb(11, 54, 110);
+  background-color: transparent;
+  color: rgb(11, 54, 110);
+  font-weight: bold;
+}
+
+/* Next Batch CSS */
+.nextBatch {
+  padding: 1.7rem 7rem;
+  background-color: rgb(11, 54, 110);
+  color: white;
+  font-size: 150%;
+}
+
+/* This is the secons div content */
+.how-section1 {
+  padding: 4rem 6rem;
+}
+.how-img {
+  padding: 1.5rem;
+}
+.how-img img {
+  width: 100%;
+  height: 100%;
+}
+.secondDivCenter {
+  top: 30%;
+  left: 2%;
+  transform: translate(2%, 25%);
+}
+.secondDivCenter h1 {
+  font-weight: bold;
+}
+.secondDivCenter p {
+  color: grey;
+}
+.thirdDivCenter h1 {
+  font-weight: bold;
+}
+.thirdDivCenter button {
+  padding: 0.8rem 2rem;
+}
+.thirdDivCenter p,
+li {
+  font-size: 120%;
+}
+.chinese img {
+  height: 75%;
+  width: 100%;
+  top: 18%;
+  left: 0%;
+  transform: translate(0%, 18%);
+}
+.paragraphSpacing p {
+  line-height: 2.5rem;
+}
+.whatYouLearnpadding{
+  padding: 5rem;
+}
+
+/* This is the css for the What you learn content file */
+.whatWeLearnBg {
+  margin-top: 6rem;
+  background-image: url("../assets/bgimg2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.whatwelearn {
+  text-align: center;
+}
+.whatwelearn p,
+h1 {
+  font-weight: bold;
+}
+.whatwelearn p {
+  color: grey;
+}
+/* This is the css for What You Learn Cards Icons */
+.cardIcon img {
+  height: 25%;
+  width: 25%;
+  align-self: center;
+}
+.cardIcon {
+  padding: 1rem;
+  background-image: linear-gradient(
+    white,
+    white,
+    rgba(9, 71, 240, 0.05),
+    rgba(9, 71, 240, 0.05)
+  );
+  border: none;
+}
+.cardIcon {
+  box-shadow: 10px 10px 50px 25px rgba(9, 71, 240, 0.05);
+}
+
+/* Media Queries */
+@media screen and (max-width: 450px) {
+  .nextBatch {
+    padding: 8px 0;
+    padding-top: 15px;
+  }
+  .nextBatch p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .contentFirstDiv h1 {
+    font-size: 100%;
+  }
+  .contentFirstDiv {
+    top: 0;
+    left: 0;
+    transform: translate(5%, 20%);
+  }
+  .c1btn {
+    font-size: 1rem;
+    padding: 0 0;
+  }
+  .how-section1 {
+    padding: 0 0;
+  }
+  .row {
+    width: 100%;
+  }
+  .how-img {
+    padding: 0 0;
+    padding-top: 25px;
+  }
+  .secondDivCenter {
+    top: 0;
+    left: 0;
+    transform: translate(0%, 2%);
+  }
+  .chinese img {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 10%);
+  }
+  .thirdDivCenter button{
+    padding: 0.1rem 0.3rem;
+    margin-bottom: 2rem;
+  }
+  .personalizedTraining{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .whatYouLearnpadding{
+    padding: 0 0;
+  }
+}
